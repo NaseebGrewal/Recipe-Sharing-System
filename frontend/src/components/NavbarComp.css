@@ -1,0 +1,33 @@
+.navbar-brand{
+    color: brown;
+    font-family: fantasy;
+    font-size: xx-large;   
+}
+
+.nav-link :hover {
+color: orangered;
+}
+
+.nav-link > svg {
+    font-size: large;
+    }
+
+.navOuterDIV{
+    background-color: red !important;
+}
+
+.Toastify__toast--warning > .Toastify__toast-body > div:last-child
+  {
+    color:brown;
+  }
+
+ .navbar-nav > .navbar-nav-scroll >div:last-child{
+    color: red;
+}
+/* .container-fluid{
+    background-color: plum;
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0rem;
+} */

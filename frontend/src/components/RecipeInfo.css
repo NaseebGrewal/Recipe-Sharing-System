@@ -1,0 +1,74 @@
+.recipe-container {
+    display: flex;
+    width: 60vw;
+    flex-direction: column;
+    margin: 20px 0px 20px 100px;
+    height: min-content;
+    max-height: 200px;
+    color: whitesmoke;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.infobox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.foodsheet {
+
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: whitesmoke;
+    padding-right: 4px;
+    width: 9vw;
+    border-right: 1px solid #353535;;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.cooktime {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.servings {
+    display: flex;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 27vw;
+    color: whitesmoke;
+    margin-left: 0px;
+    margin-right: 7px;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: justify;
+}
+
+.image img,
+.image {
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
+    border-radius: 50%
+}
+
+.recipe-description {
+    margin-right: -15px;
+}

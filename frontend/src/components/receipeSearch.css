@@ -1,0 +1,154 @@
+.container {
+  /*max-width: 600px;*/
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 140px;
+  z-index: 0;
+  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  background-color: white;
+  /*height: 70vh;*/
+}
+
+.results-content {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.results-tab-content {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.results-tab-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  font-size: large;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.results-tab-header .title {
+  order: 1;
+  margin-right: auto;
+}
+
+.results-tab-header .arrows {
+  order: 2;
+  align-items: flex-end;
+}
+
+.results-tab-body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(230px, 1fr));
+  grid-gap: 1rem;
+  align-items: center;
+  /*flex-direction: column;*/
+  padding: 20px;
+  padding-bottom: 0%;
+  padding-top: 0%;
+}
+
+.Receipe-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.Receipe-item .ReceipeIcon {
+  height: 120px;
+  width: 120px;
+  border-radius: 30%;
+  padding-bottom: 5px;
+}
+
+.Receipe-name {
+  flex-grow: 1;
+  font-weight: bold;
+  font-size: smaller;
+  color: black;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 98%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Media query for screens larger than 768px */
+@media screen and (min-width: 768px) {
+  .container {
+    /*max-width: 1400px;*/
+    margin-top: 5px;
+    margin-bottom: 200px;
+  }
+
+  .results-content {
+    border-radius: 10px;
+  }
+
+  .results-tab-header {
+    padding: 15px 30px;
+    font-size: 20px;
+  }
+
+  .Receipe-item {
+    width: 250px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .Receipe-item .ReceipeIcon {
+    height: 150px;
+    width: 150px;
+  }
+
+  h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}

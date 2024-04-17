@@ -1,0 +1,56 @@
+ .recipe-instructions {
+    display: flex;
+    color: whitesmoke;
+    flex-direction: column;
+    max-height: 60vh;
+    width: 60vw;
+    margin-left: 30px;
+  }
+  
+  .instructions-header {
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+  }
+  
+  .olist {
+    margin-top: 20px;
+    overflow-y: auto;
+    margin-left: 100px;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    scrollbar-color: orange grey;
+  }
+  
+  .listInstructions {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    max-height: 150px;
+    font-size: 18px;
+    margin-right: 30px;
+    align-items: center;
+  }
+  
+  .step-number {
+    transform: rotate(-90deg);
+    white-space:normal;
+    text-align: center;
+    color: whitesmoke;
+    display: flex;
+    margin-right: 20px;
+    justify-content:center;
+    align-items: center;
+    width: 30px;
+  }
+  
+  .instruction-text {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  

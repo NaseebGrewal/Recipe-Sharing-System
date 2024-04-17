@@ -1,0 +1,24 @@
+.RecipePage {
+  display: flex;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.body {
+  display: flex;
+  /* justify-content: space-around; */
+  max-height: 100%;
+  height: 100vh;
+}
+
+.components {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 70%;
+  width: 70vw;
+  max-height: 100%;
+  height: 100vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap');

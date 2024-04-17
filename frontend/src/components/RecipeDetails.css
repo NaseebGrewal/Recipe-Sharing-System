@@ -1,0 +1,88 @@
+.box {
+    margin: 50px 20px 50px -50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    width: 28vw;
+    justify-content: space-around;
+    background-color: #aeb8fe;
+
+}
+
+.listRecipeDetails {
+    padding: 50px 50px 0px 50px;
+}
+
+.listHeader {
+    display: flex;
+    color: #353535;
+    padding: 20px;
+    font-size: 24px;
+    justify-content: flex-start;
+}
+
+.listItems {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-y: auto;
+    height: 70vh;
+    font-size: 18px;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    scrollbar-color: orange grey;
+    margin-bottom: 10px;
+}
+
+.listInformation {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.buttons {
+    display: flex;
+    margin-bottom: 40px;
+    background-color: #e7dbdb;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.buttons button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    color: #353535;
+    font-size: 150%;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 2rem;
+}
+
+.buttons button:hover::before {
+    opacity: 1;
+    border-radius: 2rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap');
