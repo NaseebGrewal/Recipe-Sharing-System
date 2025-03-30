@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+# <<<<<<< HEAD
 FROM node:18.16
 
 WORKDIR /app
 
-=======
+# =======
 # It uses node:18-alpine as the base image for the Node.js application
 FROM node:18-alpine
 
@@ -27,4 +27,4 @@ EXPOSE 5000
 
 #Command to start the Docker container for the backed server application
 CMD ["npm", "run", "dev"]
->>>>>>> origin/Fred_Naseeb_Sumathi_Harshitha_Preethi_merged_14-06
+# >>>>>>> origin/Fred_Naseeb_Sumathi_Harshitha_Preethi_merged_14-06
