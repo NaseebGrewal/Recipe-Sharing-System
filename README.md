@@ -107,10 +107,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-If you have any questions or feedback, feel free to open an issue on GitHub or contact me directly at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions or feedback, feel free to open an issue on GitHub or contact me directly at [my email](mailto:your-email@example.com).
 
 Happy cooking! 🍳🍲🥗
-
----
-
-**Note**: Replace placeholders (like `your-username` and `your-email@example.com`) with your actual GitHub username and email.
