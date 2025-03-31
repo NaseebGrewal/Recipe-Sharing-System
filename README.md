@@ -14,14 +14,14 @@ Welcome to **Recipe-Sharing-System**, a full-stack application built with Node.j
 ## Tech Stack
 
 - **Frontend**:
-  - React.js
+  - ReactJS
   - HTML, CSS, JavaScript
   - React Router (for page navigation)
   - Axios (for API requests)
 
 - **Backend**:
-  - Node.js
-  - Express.js
+  - NodeJS
+  - ExpressJS
   - MongoDB (Database)
   - JWT Authentication
   - Mongoose (ODM)
